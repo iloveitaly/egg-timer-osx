@@ -1,0 +1,16 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {endAlertPanel = id; }; 
+            CLASS = AlertPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {oFloatingAlert = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MABEtchedTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = RoundedView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = TransparentWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

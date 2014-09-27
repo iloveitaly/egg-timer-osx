@@ -1,0 +1,86 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {endAlertPanel = id; }; 
+            CLASS = AlertPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alertPanel = NSPanel; 
+                deleteButton = NSButton; 
+                expireButton = NSButton; 
+                okButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {configureReminder = id; doneConfiguring = id; }; 
+            CLASS = ConfigurationSheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addMenu = id; 
+                doneButton = id; 
+                editMenu = id; 
+                mainWindow = id; 
+                reminderController = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {showInfoPanel = id; }; 
+            CLASS = InfoController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MessageTextView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {button = id; }; 
+            SUPERCLASS = NSTextView; 
+        }, 
+        {
+            ACTIONS = {
+                cancelSelectedReminder = id; 
+                changeReminderKind = id; 
+                deleteSelectedReminder = id; 
+                openPreferences = id; 
+                reminderDue = id; 
+                resetSelectedReminder = id; 
+                showWindow = id; 
+                takeIntValueFrom = id; 
+            }; 
+            CLASS = ReminderController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addMenu = NSMenuItem; 
+                configurationController = id; 
+                deleteMenu = NSMenuItem; 
+                editMenu = NSMenuItem; 
+                hourStepper = id; 
+                hourTextField = id; 
+                messageTextView = NSTextView; 
+                minuteStepper = id; 
+                minuteTextField = id; 
+                oController = NSArrayController; 
+                oMainWindow = NSWindow; 
+                partOfDay = id; 
+                playSoundCheckbox = id; 
+                remindMeRadioMatrix = id; 
+                reminderSubjectText = NSTextField; 
+                remindersTable = NSTableView; 
+                repeatCheckbox = id; 
+                repeatSoundPopup = id; 
+                repeatSoundTextField = id; 
+                saveReminderCheckbox = id; 
+                secondStepper = id; 
+                secondTextField = id; 
+                soundChoicePopup = NSPopUpButton; 
+                stopMenu = NSMenuItem; 
+                todayTextField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

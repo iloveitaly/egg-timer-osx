@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271E0F980B83BA61008D5138 /* NSSound+SoundList.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E0F970B83BA61008D5138 /* NSSound+SoundList.m */; };
+		2733A99F0AD3EE59008666DA /* MessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733A9920AD3EE59008666DA /* MessageTextView.m */; };
+		2733A9A00AD3EE59008666DA /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733A9970AD3EE59008666DA /* Reminder.m */; };
+		2733A9A10AD3EE59008666DA /* AlertPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733A99A0AD3EE59008666DA /* AlertPanelController.m */; };
+		2733A9A20AD3EE59008666DA /* ConfigurationSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733A99C0AD3EE59008666DA /* ConfigurationSheetController.m */; };
+		2733A9A30AD3EE59008666DA /* ReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733A99E0AD3EE59008666DA /* ReminderController.m */; };
+		2733A9B30AD3EE79008666DA /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9AB0AD3EE79008666DA /* add.png */; };
+		2733A9B40AD3EE79008666DA /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9AC0AD3EE79008666DA /* arrows.png */; };
+		2733A9B50AD3EE79008666DA /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9AD0AD3EE79008666DA /* edit.png */; };
+		2733A9B60AD3EE79008666DA /* eggtimer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9AE0AD3EE79008666DA /* eggtimer.icns */; };
+		2733A9B70AD3EE79008666DA /* greenarrow16x16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9AF0AD3EE79008666DA /* greenarrow16x16.tiff */; };
+		2733A9B80AD3EE79008666DA /* redcross16x16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9B00AD3EE79008666DA /* redcross16x16.tiff */; };
+		2733A9B90AD3EE79008666DA /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9B10AD3EE79008666DA /* remove.png */; };
+		2733A9BA0AD3EE79008666DA /* suspend.png in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9B20AD3EE79008666DA /* suspend.png */; };
+		2733AA1C0AD3F064008666DA /* EggTimer Help in Resources */ = {isa = PBXBuildFile; fileRef = 2733A9FD0AD3F064008666DA /* EggTimer Help */; };
+		2737AA830AD6F35800049492 /* small_red_cross.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2737AA810AD6F35800049492 /* small_red_cross.tif */; };
+		2737AA840AD6F35800049492 /* small_green_check.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2737AA820AD6F35800049492 /* small_green_check.tif */; };
+		2751B73F0AD2BF92004310ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		2751B7400AD2BF92004310ED /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 01248E13009F3B6C7F000001 /* MainMenu.nib */; };
+		2751B7420AD2BF92004310ED /* AlertPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = F599B4C90310724E0170B11D /* AlertPanel.nib */; };
+		2751B77F0AD2C00A004310ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		2751B7810AD2C011004310ED /* EggTimer_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D519C6009E7D257F000001 /* EggTimer_main.m */; };
+		2789C5530AD5453B0070FD96 /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789C54F0AD5453B0070FD96 /* RoundedView.m */; };
+		2789C5540AD5453B0070FD96 /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789C5510AD5453B0070FD96 /* TransparentWindow.m */; };
+		2789C6720AD591810070FD96 /* MABEtchedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789C6710AD591810070FD96 /* MABEtchedTextField.m */; };
+		27B4F4690AD8184A00EE4A70 /* ETPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4F4680AD8184A00EE4A70 /* ETPreferenceController.m */; };
+		27B4F4D00AD81D5100EE4A70 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 27B4F4CE0AD81D5100EE4A70 /* Preferences.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01248E14009F3B6C7F000001 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MainMenu.nib; path = Resources/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		01D519C6009E7D257F000001 /* EggTimer_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EggTimer_main.m; path = Sources/EggTimer_main.m; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		271E0F960B83BA61008D5138 /* NSSound+SoundList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSound+SoundList.h"; path = "Sources/Categories/NSSound+SoundList.h"; sourceTree = "<group>"; };
+		271E0F970B83BA61008D5138 /* NSSound+SoundList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSound+SoundList.m"; path = "Sources/Categories/NSSound+SoundList.m"; sourceTree = "<group>"; };
+		2733A9910AD3EE59008666DA /* MessageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTextView.h; sourceTree = "<group>"; };
+		2733A9920AD3EE59008666DA /* MessageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTextView.m; sourceTree = "<group>"; };
+		2733A9930AD3EE59008666DA /* ETShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETShared.h; path = Sources/ETShared.h; sourceTree = "<group>"; };
+		2733A9940AD3EE59008666DA /* ETPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETPreferences.h; path = Sources/ETPreferences.h; sourceTree = "<group>"; };
+		2733A9960AD3EE59008666DA /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		2733A9970AD3EE59008666DA /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		2733A9990AD3EE59008666DA /* AlertPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertPanelController.h; sourceTree = "<group>"; };
+		2733A99A0AD3EE59008666DA /* AlertPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertPanelController.m; sourceTree = "<group>"; };
+		2733A99B0AD3EE59008666DA /* ConfigurationSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationSheetController.h; sourceTree = "<group>"; };
+		2733A99C0AD3EE59008666DA /* ConfigurationSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationSheetController.m; sourceTree = "<group>"; };
+		2733A99D0AD3EE59008666DA /* ReminderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderController.h; sourceTree = "<group>"; };
+		2733A99E0AD3EE59008666DA /* ReminderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderController.m; sourceTree = "<group>"; };
+		2733A9AB0AD3EE79008666DA /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		2733A9AC0AD3EE79008666DA /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
+		2733A9AD0AD3EE79008666DA /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		2733A9AE0AD3EE79008666DA /* eggtimer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = eggtimer.icns; sourceTree = "<group>"; };
+		2733A9AF0AD3EE79008666DA /* greenarrow16x16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = greenarrow16x16.tiff; sourceTree = "<group>"; };
+		2733A9B00AD3EE79008666DA /* redcross16x16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = redcross16x16.tiff; sourceTree = "<group>"; };
+		2733A9B10AD3EE79008666DA /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+		2733A9B20AD3EE79008666DA /* suspend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suspend.png; sourceTree = "<group>"; };
+		2733A9FD0AD3F064008666DA /* EggTimer Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "EggTimer Help"; path = "Resources/EggTimer Help"; sourceTree = "<group>"; };
+		2737AA810AD6F35800049492 /* small_red_cross.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = small_red_cross.tif; sourceTree = "<group>"; };
+		2737AA820AD6F35800049492 /* small_green_check.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = small_green_check.tif; sourceTree = "<group>"; };
+		2751B7370AD2BF72004310ED /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2751B7390AD2BF72004310ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		2751B9B30AD2CA0A004310ED /* EggTimerPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = EggTimerPrefix.pch; path = Sources/EggTimerPrefix.pch; sourceTree = "<group>"; };
+		2789C54F0AD5453B0070FD96 /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
+		2789C5500AD5453B0070FD96 /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TransparentWindow.h; sourceTree = "<group>"; };
+		2789C5510AD5453B0070FD96 /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TransparentWindow.m; sourceTree = "<group>"; };
+		2789C5520AD5453B0070FD96 /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
+		2789C6700AD591810070FD96 /* MABEtchedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABEtchedTextField.h; sourceTree = "<group>"; };
+		2789C6710AD591810070FD96 /* MABEtchedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABEtchedTextField.m; sourceTree = "<group>"; };
+		27B4F4670AD8184A00EE4A70 /* ETPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPreferenceController.h; sourceTree = "<group>"; };
+		27B4F4680AD8184A00EE4A70 /* ETPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPreferenceController.m; sourceTree = "<group>"; };
+		27B4F4CF0AD81D5100EE4A70 /* Preferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Preferences.nib; path = Resources/English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		F51C536D02F6FA0F011E44E2 /* AlertPanel.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = AlertPanel.nib; path = Resources/English.lproj/AlertPanel.nib; sourceTree = "<group>"; };
+		F533C12C028CEDCC0114EA2E /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2751B7350AD2BF72004310ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2751B77F0AD2C00A004310ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271E0F9B0B83BA81008D5138 /* Categories */,
+				2733A9930AD3EE59008666DA /* ETShared.h */,
+				2733A9940AD3EE59008666DA /* ETPreferences.h */,
+				2733A9900AD3EE59008666DA /* View */,
+				2733A9950AD3EE59008666DA /* Model */,
+				2733A9980AD3EE59008666DA /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2751B7370AD2BF72004310ED /* Egg Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271E0F9B0B83BA81008D5138 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				271E0F960B83BA61008D5138 /* NSSound+SoundList.h */,
+				271E0F970B83BA61008D5138 /* NSSound+SoundList.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2733A9900AD3EE59008666DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2733A9910AD3EE59008666DA /* MessageTextView.h */,
+				2733A9920AD3EE59008666DA /* MessageTextView.m */,
+				2789C5500AD5453B0070FD96 /* TransparentWindow.h */,
+				2789C5510AD5453B0070FD96 /* TransparentWindow.m */,
+				2789C5520AD5453B0070FD96 /* RoundedView.h */,
+				2789C54F0AD5453B0070FD96 /* RoundedView.m */,
+				2789C6700AD591810070FD96 /* MABEtchedTextField.h */,
+				2789C6710AD591810070FD96 /* MABEtchedTextField.m */,
+			);
+			name = View;
+			path = Sources/View;
+			sourceTree = "<group>";
+		};
+		2733A9950AD3EE59008666DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2733A9960AD3EE59008666DA /* Reminder.h */,
+				2733A9970AD3EE59008666DA /* Reminder.m */,
+			);
+			name = Model;
+			path = Sources/Model;
+			sourceTree = "<group>";
+		};
+		2733A9980AD3EE59008666DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2733A9990AD3EE59008666DA /* AlertPanelController.h */,
+				2733A99A0AD3EE59008666DA /* AlertPanelController.m */,
+				2733A99B0AD3EE59008666DA /* ConfigurationSheetController.h */,
+				2733A99C0AD3EE59008666DA /* ConfigurationSheetController.m */,
+				2733A99D0AD3EE59008666DA /* ReminderController.h */,
+				2733A99E0AD3EE59008666DA /* ReminderController.m */,
+				27B4F4670AD8184A00EE4A70 /* ETPreferenceController.h */,
+				27B4F4680AD8184A00EE4A70 /* ETPreferenceController.m */,
+			);
+			name = Controller;
+			path = Sources/Controller;
+			sourceTree = "<group>";
+		};
+		2733A9AA0AD3EE79008666DA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2737AA810AD6F35800049492 /* small_red_cross.tif */,
+				2737AA820AD6F35800049492 /* small_green_check.tif */,
+				2733A9AB0AD3EE79008666DA /* add.png */,
+				2733A9AC0AD3EE79008666DA /* arrows.png */,
+				2733A9AD0AD3EE79008666DA /* edit.png */,
+				2733A9AE0AD3EE79008666DA /* eggtimer.icns */,
+				2733A9AF0AD3EE79008666DA /* greenarrow16x16.tiff */,
+				2733A9B00AD3EE79008666DA /* redcross16x16.tiff */,
+				2733A9B10AD3EE79008666DA /* remove.png */,
+				2733A9B20AD3EE79008666DA /* suspend.png */,
+			);
+			name = images;
+			path = Resources/images;
+			sourceTree = "<group>";
+		};
+		2751B9B40AD2CA18004310ED /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				01D519C6009E7D257F000001 /* EggTimer_main.m */,
+				2751B9B30AD2CA0A004310ED /* EggTimerPrefix.pch */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Cocoa Break */ = {
+			isa = PBXGroup;
+			children = (
+				2751B9B40AD2CA18004310ED /* Other */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Cocoa Break";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2751B7390AD2BF72004310ED /* Info.plist */,
+				2733A9FD0AD3F064008666DA /* EggTimer Help */,
+				2733A9AA0AD3EE79008666DA /* images */,
+				27B4F4CE0AD81D5100EE4A70 /* Preferences.nib */,
+				F599B4C90310724E0170B11D /* AlertPanel.nib */,
+				01248E13009F3B6C7F000001 /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F533C12C028CEDCC0114EA2E /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2751B7360AD2BF72004310ED /* EggTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2751B73A0AD2BF73004310ED /* Build configuration list for PBXNativeTarget "EggTimer" */;
+			buildPhases = (
+				2751B7330AD2BF72004310ED /* Resources */,
+				2751B7340AD2BF72004310ED /* Sources */,
+				2751B7350AD2BF72004310ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggTimer;
+			productName = "Egg Timer";
+			productReference = 2751B7370AD2BF72004310ED /* Egg Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 277275430AD2BB6100CF3411 /* Build configuration list for PBXProject "EggTimer" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Cocoa Break */;
+			projectDirPath = "";
+			targets = (
+				2751B7360AD2BF72004310ED /* EggTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2751B7330AD2BF72004310ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2751B73F0AD2BF92004310ED /* InfoPlist.strings in Resources */,
+				2751B7400AD2BF92004310ED /* MainMenu.nib in Resources */,
+				2751B7420AD2BF92004310ED /* AlertPanel.nib in Resources */,
+				2733A9B30AD3EE79008666DA /* add.png in Resources */,
+				2733A9B40AD3EE79008666DA /* arrows.png in Resources */,
+				2733A9B50AD3EE79008666DA /* edit.png in Resources */,
+				2733A9B60AD3EE79008666DA /* eggtimer.icns in Resources */,
+				2733A9B70AD3EE79008666DA /* greenarrow16x16.tiff in Resources */,
+				2733A9B80AD3EE79008666DA /* redcross16x16.tiff in Resources */,
+				2733A9B90AD3EE79008666DA /* remove.png in Resources */,
+				2733A9BA0AD3EE79008666DA /* suspend.png in Resources */,
+				2733AA1C0AD3F064008666DA /* EggTimer Help in Resources */,
+				2737AA830AD6F35800049492 /* small_red_cross.tif in Resources */,
+				2737AA840AD6F35800049492 /* small_green_check.tif in Resources */,
+				27B4F4D00AD81D5100EE4A70 /* Preferences.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2751B7340AD2BF72004310ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2751B7810AD2C011004310ED /* EggTimer_main.m in Sources */,
+				2733A99F0AD3EE59008666DA /* MessageTextView.m in Sources */,
+				2733A9A00AD3EE59008666DA /* Reminder.m in Sources */,
+				2733A9A10AD3EE59008666DA /* AlertPanelController.m in Sources */,
+				2733A9A20AD3EE59008666DA /* ConfigurationSheetController.m in Sources */,
+				2733A9A30AD3EE59008666DA /* ReminderController.m in Sources */,
+				2789C5530AD5453B0070FD96 /* RoundedView.m in Sources */,
+				2789C5540AD5453B0070FD96 /* TransparentWindow.m in Sources */,
+				2789C6720AD591810070FD96 /* MABEtchedTextField.m in Sources */,
+				27B4F4690AD8184A00EE4A70 /* ETPreferenceController.m in Sources */,
+				271E0F980B83BA61008D5138 /* NSSound+SoundList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01248E13009F3B6C7F000001 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01248E14009F3B6C7F000001 /* MainMenu.nib */,
+			);
+			name = MainMenu.nib;
+			sourceTree = SOURCE_ROOT;
+		};
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27B4F4CE0AD81D5100EE4A70 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B4F4CF0AD81D5100EE4A70 /* Preferences.nib */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		F599B4C90310724E0170B11D /* AlertPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C536D02F6FA0F011E44E2 /* AlertPanel.nib */,
+			);
+			name = AlertPanel.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2751B73B0AD2BF73004310ED /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/EggTimerPrefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Egg Timer";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2751B73C0AD2BF73004310ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/EggTimerPrefix.pch;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Egg Timer";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		277275440AD2BB6100CF3411 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Development;
+		};
+		277275450AD2BB6100CF3411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2751B73A0AD2BF73004310ED /* Build configuration list for PBXNativeTarget "EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2751B73B0AD2BF73004310ED /* Development */,
+				2751B73C0AD2BF73004310ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		277275430AD2BB6100CF3411 /* Build configuration list for PBXProject "EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277275440AD2BB6100CF3411 /* Development */,
+				277275450AD2BB6100CF3411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
